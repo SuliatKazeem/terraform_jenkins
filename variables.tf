@@ -9,7 +9,7 @@ variable "vpc_id" {
 
 variable "key_name" {
   type   = string
-  default = "hellome"
+  default = "lastbus"
 }
 variable "ports" {
   type    = list(number)
@@ -24,5 +24,5 @@ variable "cidr_block" {
 
 variable "ami"{
     type = string
-    default = "ami-04581fbf744a7d11f"
+    default = "ami-03c7d01cf4dedc891"
 }
